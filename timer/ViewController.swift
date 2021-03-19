@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  timer
 //
-//  Created by students on 2021/3/12.
-//
+//  Created by Kuan-Yu on 2021/3/12.
+//  ID: CEI107022
 
 import UIKit
 
