@@ -37,7 +37,9 @@ class ViewController: UIViewController {
     }
     func setTime(time: Int) {
         second = time;
-        clock.text = String(second);
+        let s: Int = time%60;
+        let m: Int = time/60;
+        clock.text = String(format: "%02d",m)+" : "+String(format: "%02d",s);
     }
     var second: Int = 0;
     var myTime = Timer();
